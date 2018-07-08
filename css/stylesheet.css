@@ -1,0 +1,11 @@
+
+#logo {
+    width: 75px;
+    height: 75px;
+}
+
+#bannerimg {
+    width: 1500px;
+    height: 200px;
+    object-fit: cover;
+}
