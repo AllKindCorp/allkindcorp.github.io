@@ -2,6 +2,8 @@
 #logo {
     width: 75px;
     height: 75px;
+    margin-top: -7px;
+    padding-bottom: 10px;
 }
 
 #bannerimg {
@@ -23,6 +25,22 @@ body {
     width: 80%;
     margin: auto;
     overflow: hidden
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color:#1161c4
+}
+
+a:hover {
+    color: #5d9eef
+}
+
+a:visited {
+    color: #084087;
 }
 
 ul {
@@ -64,7 +82,7 @@ header #branding h1 {
 
 header nav {
     float: right;
-    margin-top: 25px
+    margin-top: 23px
 }
 
 header .highlight, header .current a {
@@ -79,7 +97,7 @@ header a:hover {
 
 #showcase {
     min-height: 400px; 
-    background:url("../img/codebackbanner.jpg") no-repeat;
+    background:url("../img/codebackbanner.jpg") no-repeat 0 -400px;
 }
 
 #showcase h1 {
@@ -89,4 +107,67 @@ header a:hover {
     text-shadow: 2px 2px rgba(0 0 0 );
     text-align: center;
     padding-top: 65px;
+}
+
+/* Description */
+
+#description {
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Footer */
+footer {
+    border-top: #021833 3px solid;
+    margin-top: px;
+}
+
+#copywrite {
+    text-align: center;
+    font-size: 13px;
+}
+
+#credits {
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+#disclaimer {
+    font-size: 15px;
+    text-align: center;
+    margin-top: -28px;
+    margin-bottom: 0;
+}
+
+#license img{
+    float: right;
+    margin-top: -27px;
+}
+
+#license {
+    font-size: 10px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: -2px;
+
+}
+
+
+
+
+
+#prohead {
+    width: 50%;
+    text-align: center;
+    border-bottom: #021833 2px solid;
+    margin-left: 25%;
+}
+
+#divselect {
+    font-size: 27px;
+    text-align: center;
+    padding-bottom: 640px;
+    margin-left: 
 }
