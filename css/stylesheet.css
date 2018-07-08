@@ -9,3 +9,84 @@
     height: 200px;
     object-fit: cover;
 }
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    line-height: 1.1;
+    padding: 0;
+    margin: 0;
+}
+
+/* Global */
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+/* Header */
+
+header {
+    background: white;
+    color: black;
+    padding-top: 25px;
+    min-height: 70px;
+    border-bottom: #021833 3px solid;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 10px 0 10px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    set margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 25px
+}
+
+header .highlight, header .current a {
+    color: #1161c4;   
+}
+
+header a:hover {
+    color: #5d9eef;
+}
+
+/* Showcase */
+
+#showcase {
+    min-height: 400px; 
+    background:url("../img/codebackbanner.jpg") no-repeat;
+}
+
+#showcase h1 {
+    color: #ffffff;
+    font-family: 'Oswald', 'Roboto Condensed', sans-serif;
+    font-size: 90px;
+    text-shadow: 2px 2px rgba(0 0 0 );
+    text-align: center;
+    padding-top: 65px;
+}
