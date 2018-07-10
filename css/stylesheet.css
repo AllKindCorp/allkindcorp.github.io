@@ -195,7 +195,7 @@ header a:hover {
 	}
 }
 
-@media only screen and (min-width: 400px){
+@media only screen and (max-width: 800px){
 	
 	footer {
     	border-top: #021833 3px solid;
