@@ -1,0 +1,46 @@
+
+h1 {
+	text-align: center;
+	font-size: 75px;
+	padding-top: 25px;
+}
+
+h2 {
+	text-align: center;
+	margin-top: -50px;
+	font-size: 35px;
+}
+
+button {
+	margin-left: 703px;
+	margin-top: 15px;
+	background-color: #303030;
+	border: none;
+	font-size: 50px;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 8px;
+	-webkit-transition-duration: 0.4s;
+}
+
+button:hover {
+	background-color: #1584c4;
+	transition-duration: 0.4s;
+}
+
+a:link {
+	color: #ffffff;
+}
+
+a:visited {
+	color: #ffffff
+}
+
+
+
+h3 {
+	text-align: center;
+	margin-top: -25px;
+}
