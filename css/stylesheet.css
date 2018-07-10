@@ -4,6 +4,7 @@
     height: 75px;
     margin-top: -7px;
     padding-bottom: 10px;
+    filter: invert(1);
 }
 
 #bannerimg {
@@ -48,10 +49,14 @@ ul {
     margin: 0;
 }
 
+.clearfloat {
+    clear: both;
+}
+
 /* Header */
 
 header {
-    background: white;
+    background: #3f3f3f;
     color: black;
     padding-top: 25px;
     min-height: 70px;
@@ -65,6 +70,9 @@ header a {
     font-size: 18px;
 }
 
+header a:visited{
+    color: #ffffff;
+}
 
 header li {
     float: left;
@@ -86,11 +94,11 @@ header nav {
 }
 
 header .highlight, header .current a {
-    color: #1161c4;   
+    color: #63a8ff;   
 }
 
 header a:hover {
-    color: #5d9eef;
+    color: #96c4ff;
 }
 
 /* Showcase */
@@ -119,14 +127,30 @@ header a:hover {
 /* Description */
 
 #description {
+    margin-top: 60px;
+}
+
+#description1 {
     text-align: center;
     font-size: 18px;
+    float: left;
+    padding-left: 100px;
+    padding-top: 30px;
+}
+
+#description2 {
+    text-align: center;
+    font-size: 18px;
+    float: right;
+    padding-right: 100px;
+    padding-top: 30px;
 }
 
 /* Footer */
 footer {
     border-top: #021833 3px solid;
-    margin-top: px;
+    margin-top: 110px;
+    margin-bottom: 6px;
 }
 
 #copywrite {
@@ -161,20 +185,6 @@ footer {
 
 }
 
+/* Quick */
 
 
-
-
-#prohead {
-    width: 50%;
-    text-align: center;
-    border-bottom: #021833 2px solid;
-    margin-left: 25%;
-}
-
-#divselect {
-    font-size: 27px;
-    text-align: center;
-    padding-bottom: 640px;
-    margin-left: 
-}
