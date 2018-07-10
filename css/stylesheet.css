@@ -81,7 +81,7 @@ header a:visited{
 header li {
     float: left;
     display: inline;
-    padding: 0 10px 0 10px;
+    padding: 0 10px 0 5px;
 }
 
 header #branding {
@@ -89,12 +89,12 @@ header #branding {
 }
 
 header #branding h1 {
-    set margin: 0;
+    margin: 0;
 }
 
 header nav {
     float: right;
-    margin-top: 23px
+    margin-top: 2.3vh
 }
 
 header .highlight, header .current a {
@@ -108,53 +108,56 @@ header a:hover {
 /* Showcase */
 
 #showcase {
-    min-height: 400px; 
-    background:url("../img/bannercode2.jpg") no-repeat 0 -900px;
+    min-height: 10px; 
+    background:url("../img/bannercode2.jpg") no-repeat 0 35%;
+  	max-width: 100%
 }
 
 #showcase h1 {
     color: #ffffff;
     font-family: 'Oswald', 'Roboto Condensed', sans-serif;
-    font-size: 90px;
+    font-size: 420%;
     text-shadow: 2px 2px rgba(0 0 0 );
     text-align: center;
-    padding-top: 65px;
+    padding-top: 0%;
+ 	width: 100%
 }
 
 #showcase h2 {
     color: #ffffff;
-    font-size: 25px;
+    font-size: 160%;
     text-align: center;
-    margin-top: -50px;
+    margin-top: -4%;
 }
 
 /* Description */
 
 #description {
-    margin-top: 60px;
+    margin-top: 5%;
 }
 
 #description1 {
     text-align: center;
     font-size: 18px;
     float: left;
-    padding-left: 100px;
-    padding-top: 30px;
+    padding-left: 7%;
+	padding-right: 0px;
+    padding-top: 0px;
 }
 
 #description2 {
     text-align: center;
     font-size: 18px;
     float: right;
-    padding-right: 100px;
-    padding-top: 30px;
+    padding-right: 7%;
+	padding-left: 0px;
+	padding-top: 0px;
 }
 
 /* Footer */
 footer {
     border-top: #021833 3px solid;
-    margin-top: 85px;
-    margin-bottom: 4px;
+	margin-top: 29vh;
 }
 
 #copywrite {
