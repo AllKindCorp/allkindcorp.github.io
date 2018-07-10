@@ -140,7 +140,7 @@ header a:hover {
     text-align: center;
     font-size: 18px;
     float: left;
-    padding-left: 7%;
+    padding-left: 6%;
 	padding-right: 0px;
     padding-top: 0px;
 }
@@ -149,49 +149,137 @@ header a:hover {
     text-align: center;
     font-size: 18px;
     float: right;
-    padding-right: 7%;
+    padding-right: 6%;
 	padding-left: 0px;
 	padding-top: 0px;
 }
 
 /* Footer */
-footer {
-    border-top: #021833 3px solid;
-	margin-top: 29vh;
+@media only screen and (min-width: 800px){
+	
+	footer {
+    	border-top: #021833 3px solid;
+		margin-top: 29vh;
+	}
+
+	#copywrite {
+    	text-align: center;
+    	font-size: 13px;
+	}
+
+	#credits {
+    	font-size: 18px;
+    	text-decoration: none;
+    	text-transform: uppercase;
+    	text-align: left;
+	}
+
+	#disclaimer {
+    	font-size: 15px;
+    	text-align: center;
+    	margin-top: -2%;
+    	margin-bottom: 0;
+	}
+
+	#license img{
+    	float: right;
+    	margin-top: -1.5%;
+	}
+
+	#license {
+    	font-size: 10px;
+    	text-align: center;
+    	margin-top: 0.5%;
+    	margin-bottom: 0;
+
+	}
 }
 
-#copywrite {
-    text-align: center;
-    font-size: 13px;
+@media only screen and (min-width: 400px){
+	
+	footer {
+    	border-top: #021833 3px solid;
+		margin-top: 3vh;
+	}
+
+	#copywrite {
+    	text-align: right;
+    	font-size: 13px;
+		margin-top: 0.3%;
+		margin-bottom: 2%;
+	}
+
+	#credits {
+    	font-size: 18px;
+    	text-decoration: none;
+    	text-transform: uppercase;
+		float: left;
+		text-align: left;
+	}
+
+	#disclaimer {
+    	font-size: 15px;
+    	text-align: right;
+    	margin-top: -2%;
+    	margin-bottom: 0;
+	}
+
+	#license img{
+    	float: right;
+    	margin-top: -4.8%;
+		margin-right: -9%;
+		visibility: hidden;
+	}
+
+	#license {
+    	font-size: 10px;
+    	text-align: right;
+    	margin-top: -1%;
+    	margin-bottom: 0;
+
+	}
 }
 
-#credits {
-    font-size: 18px;
-    text-decoration: none;
-    text-transform: uppercase;
-    text-align: left;
+@media only screen and (max-width: 400px){
+	
+	footer {
+    	border-top: #021833 3px solid;
+		margin-top: 29vh;
+	}
+
+	#copywrite {
+    	text-align: right;
+    	font-size: 13px;
+		margin-bottom: 3%;
+	}
+
+	#credits {
+    	font-size: 13px;
+    	text-decoration: none;
+    	text-transform: uppercase;
+    	text-align: right;
+	}
+
+	#disclaimer {
+    	font-size: 15px;
+    	text-align: right;
+    	margin-top: -2%;
+    	margin-bottom: 0;
+	}
+
+	#license img{
+    	float: right;
+    	margin-top: -1.5%;
+		visibility: hidden
+	}
+
+	#license {
+    	font-size: 10px;
+    	text-align: right;
+    	margin-top: 0.5%;
+    	margin-bottom: 0;
+		margin-right: -12%;
+
+	}
 }
-
-#disclaimer {
-    font-size: 15px;
-    text-align: center;
-    margin-top: -28px;
-    margin-bottom: 0;
-}
-
-#license img{
-    float: right;
-    margin-top: -27px;
-}
-
-#license {
-    font-size: 10px;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: -2px;
-
-}
-
-/* Quick */
-
 
