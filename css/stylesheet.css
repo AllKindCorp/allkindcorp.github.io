@@ -133,7 +133,7 @@ header a:hover {
 /* Description */
 
 #description {
-    margin-top: 5%;
+    margin-top: 8%;
 }
 
 #description1 {
@@ -155,11 +155,20 @@ header a:hover {
 }
 
 /* Footer */
+
+button {
+	background-color: #3f3f3f;
+}
+
+#credits {
+	color: white;
+}
+
 @media only screen and (min-width: 800px){
 	
 	footer {
     	border-top: #021833 3px solid;
-		margin-top: 29vh;
+		margin-top: 23vh;
 	}
 
 	#copywrite {
@@ -168,7 +177,7 @@ header a:hover {
 	}
 
 	#credits {
-    	font-size: 18px;
+    	font-size: 100%;
     	text-decoration: none;
     	text-transform: uppercase;
     	text-align: left;
