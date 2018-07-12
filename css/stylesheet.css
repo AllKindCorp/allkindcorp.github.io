@@ -156,14 +156,6 @@ header a:hover {
 
 /* Footer */
 
-button {
-	background-color: #3f3f3f;
-}
-
-#credits {
-	color: white;
-}
-
 @media only screen and (min-width: 800px){
 	
 	footer {
@@ -176,17 +168,10 @@ button {
     	font-size: 13px;
 	}
 
-	#credits {
-    	font-size: 100%;
-    	text-decoration: none;
-    	text-transform: uppercase;
-    	text-align: left;
-	}
-
 	#disclaimer {
     	font-size: 15px;
     	text-align: center;
-    	margin-top: -2%;
+    	margin-top: -1%;
     	margin-bottom: 0;
 	}
 
