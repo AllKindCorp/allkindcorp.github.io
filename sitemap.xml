@@ -9,7 +9,48 @@
 
 <url>
   <loc>https://www.allkindcorp.com/</loc>
-  <lastmod>2018-10-19T21:17:24+00:00</lastmod>
+  <lastmod>2020-07-10T09:18:43+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.allkindcorp.com/products</loc>
+  <lastmod>2020-07-10T09:18:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.allkindcorp.com/contact</loc>
+  <lastmod>2020-07-10T09:18:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.allkindcorp.com/privacy</loc>
+  <lastmod>2020-07-10T09:18:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.allkindcorp.com/toc</loc>
+  <lastmod>2020-07-10T09:18:43+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.allkindcorp.com/axlebit</loc>
+  <lastmod>2020-07-10T09:18:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.allkindcorp.com/mgame</loc>
+  <lastmod>2020-07-10T09:18:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.allkindcorp.com/legacy</loc>
+  <lastmod>2020-07-10T09:18:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.allkindcorp.com/credits</loc>
+  <lastmod>2020-07-10T09:18:43+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
