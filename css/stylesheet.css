@@ -81,7 +81,6 @@ header a:visited{
 }
 
 header li {
-    float: left;
     display: inline;
     padding: 0 10px 0 5px;
 }
@@ -250,10 +249,6 @@ header a:hover {
 
 #gformcontact {
 	padding-top: 7em;
-}
-
-#gfcbody {
-	
 }
 
 #ldescript {
